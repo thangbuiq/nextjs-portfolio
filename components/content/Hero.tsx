@@ -20,6 +20,7 @@ const Hero = () => {
       </AnimationContainer>
 
       <AnimationContainer customClassName='w-[80px] sm:w-[176px] relative mb-6 lg:mb-0'>
+        <a href='https://linkedin.com/in/thangbuiq' target='_blank' rel='noreferrer'>
         <Image
           alt='Thang Q. Bui'
           height={176}
@@ -27,8 +28,9 @@ const Hero = () => {
           src='/face.png'
           sizes='30vw'
           priority
-          className='rounded-[8px]'
+          className='rounded-[50%] hover:grayscale transition-all ease'
         />
+        </a>
       </AnimationContainer>
 
     </div>

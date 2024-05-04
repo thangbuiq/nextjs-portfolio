@@ -4,7 +4,7 @@ import local from 'next/font/local';
 import Header from '@/components/ui/Header';
 import Footer from '@/components/ui/Footer';
 import Head from '../head';
-import FlareCursor from '@/components/ui/FlareCursor';
+// import FlareCursor from '@/components/ui/FlareCursor';
 
 const graphik = local({
   src: [
@@ -41,7 +41,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 
         <main className='flex flex-col justify-center items-center mx-auto'>
 
-          <FlareCursor />
+          {/* <FlareCursor /> */}
 
           {children}
 

@@ -23,13 +23,13 @@ const ContactMe = () => {
             </div>
           </a>
 
-          <a href='https://github.com/thangbuiq/' target='_blank' rel='noreferrer' className='w-full'>
+          <a href='https://www.linkedin.com/in/thangbuiq/' target='_blank' rel='noreferrer' className='w-full'>
             <div className='rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease'>
               <h6 className='font-bold text-1xl tracking-tight text-white text-start'>
-                GitHub
+                LinkedIn
               </h6>
               <p className='text-base mt-2 text-gray-400'>
-                @thangbuiq
+                thangbuiq
               </p>
             </div>
           </a>

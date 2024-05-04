@@ -3,7 +3,7 @@ import AnimationContainer from '../utils/AnimationContainer';
 import SectionContainer from '../utils/SectionContainer';
 import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
 
-const myGithub = 'https://github.com/jeandv';
+const myGithub = 'https://github.com/thangbuiq';
 
 const ProjectsSection = () => {
   return (
@@ -16,7 +16,7 @@ const ProjectsSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='w-full text-base text-gray-400'>
-            These are most of the projects I've done since I started programming, some of them are personal projects, freelance, work, practice or for other situation. If you want to see absolutely all my projects go to my <a href={myGithub} target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>github.com/jeandv</a>.
+          These are some of the projects I've worked on since I started coding. They include things I've done for fun, for work, and to practice my skills. If you want to check out everything I've done, head over to my GitHub page at <a href={myGithub} target='_blank' rel='noopener noreferrer' className='text-white hover:underline transition-all ease'>github.com/thangbuiq</a>. I'd love to hear what you think!
           </p>
 
         </AnimationContainer>

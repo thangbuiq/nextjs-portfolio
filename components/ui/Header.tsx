@@ -11,7 +11,7 @@ const Header = () => {
         <div>
           <h1>
             <Link href='/'>
-              <strong>echo $(ThangBuiQ)</strong>
+              <strong>thangbuiq</strong> | <span className='text-gray-200'>portfolio</span>
             </Link>
           </h1>
         </div>

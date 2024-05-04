@@ -31,7 +31,7 @@ const AboutSection = () => {
         </AnimationContainer>
 
         <CurrentTimeLineExp />
-
+{/* 
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills & Tools</h2>
@@ -62,7 +62,7 @@ const AboutSection = () => {
 
           </div>
 
-        </AnimationContainer>
+        </AnimationContainer> */}
 
         <ProcessWork />
 

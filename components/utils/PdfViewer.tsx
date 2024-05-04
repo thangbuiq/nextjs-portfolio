@@ -1,20 +1,53 @@
 "use client";
-import { Viewer, Worker } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
+import { Viewer, Worker, RenderPageProps, SpecialZoomLevel } from "@react-pdf-viewer/core";
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
+
+import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+
 const PdfViewer = ({ url }: { url: string }) => {
-    const defaultLayoutPluginInstance = defaultLayoutPlugin();
+    const renderPage = (props: RenderPageProps) => {
+        return (
+            <>
+                {props.canvasLayer.children}
+                <div style={{ userSelect: 'none' }}>
+                    {props.textLayer.children}
+                </div>
+                {props.annotationLayer.children}
+            </>
+        );
+    };
+    const defaultLayoutPluginInstance = defaultLayoutPlugin({
+        sidebarTabs: (defaultTabs) => [],
+    });
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     return (
-        <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
-
-            <Viewer
-                fileUrl={url}
-                plugins={[defaultLayoutPluginInstance]}
-                theme={"dark"}
-            />
-
-        </Worker>
+        <>
+        {isMobile ? (
+            <div className="w-screen h-screen">
+                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+                    <Viewer
+                        fileUrl={url}
+                        plugins={[defaultLayoutPluginInstance]}
+                        theme={"dark"}
+                        renderPage={renderPage}
+                        defaultScale={SpecialZoomLevel.PageFit}
+                    />
+                </Worker>
+            </div>
+        ) : (
+            <div className="w-[1250px]">
+                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+                    <Viewer
+                        fileUrl={url}
+                        plugins={[defaultLayoutPluginInstance]}
+                        theme={"dark"}
+                        renderPage={renderPage}
+                    />
+                </Worker>
+            </div>
+        )}
+        </>
     );
 };
 export default PdfViewer;

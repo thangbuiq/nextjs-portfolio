@@ -8,16 +8,16 @@ const allProjectsInfo = [
   {
     id: '1',
     title: 'Garbage Classification Website',
-    des: 'Garbage classification website on AWS with Tensorflow ResNet50 as deeplearning model, FastAPI as backend and ReactJs as frontend.',
-    category: 'Tensorflow - FastAPI - React - Docker - AWS',
+    des: 'Garbage classification website on AWS with Tensorflow ResNet50 as deeplearning model, FastAPI as backend and ReactJs as frontend. Technologies used: Tensorflow, FastAPI, ReactJs, Docker, Github Actions, AWS.',
+    category: 'MLOps - Web Development - Deployment',
     repo: 'https://github.com/thangbuiq/garbage-classification-web',
     link: 'https://garbage-classification-web.vercel.app/'
   },
   {
     id: '2',
     title: 'COVID-19 ETL Pipeline',
-    des: 'A Data Engineering Project that implements an ETL data pipeline with Covid-19 data from multiple sources to a data warehouse for data analysis and visualization.',
-    category: 'Dagster - Apache Spark - MinIO - MySQL - Postgres - Plotly - Dash - Docker',
+    des: 'A Data Engineering Project that implements an ETL data pipeline with Covid-19 data from multiple sources to a data warehouse for data analysis and visualization. Technologies used: Dagster, Apache Spark, MinIO, MySQL, Postgres, Plotly, Dash, Docker.',
+    category: 'Data Engineering - Big Data',
     repo: 'https://github.com/thangbuiq/covid19-etl-pipeline',
     link: 'https://www.youtube.com/watch?v=mO7FiSYrq28'
   },

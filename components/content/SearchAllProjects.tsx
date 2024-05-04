@@ -9,7 +9,7 @@ const allProjectsInfo = [
     id: '1',
     title: 'Garbage Classification Website',
     des: 'Garbage classification website on AWS with Tensorflow ResNet50 as deeplearning model, FastAPI as backend and ReactJs as frontend. Technologies used: Tensorflow, FastAPI, ReactJs, Docker, Github Actions, AWS.',
-    category: 'MLOps - Web Development - Deployment',
+    category: 'MLOps',
     repo: 'https://github.com/thangbuiq/garbage-classification-web',
     link: 'https://garbage-classification-web.vercel.app/'
   },

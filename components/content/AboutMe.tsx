@@ -9,7 +9,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        I am a passionate dev with +2 years of work experience and love learning new technologies since I discovered programming, I am currently learning the way to be a DevOps specialist.
+        I am an AI Engineer with data driven mindset, passionate about technology and I love to learn new things. My main goal is to bring the AI models outside the Jupiter notebooks and deploy them in production environments.
       </p>
 
     </AnimationContainer>

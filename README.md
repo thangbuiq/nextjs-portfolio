@@ -12,7 +12,7 @@ I am currently learning the way to be a DevOps, the reason why I am interested i
 
 ## Autor 🤠
 
-· Email: jeanrdev@gmail.com <br>
+· Email: thangbuiq@gmail.com <br>
 · [CV](https://rxresu.me/jeandv/cv-jean-rondon) <br>
 · [Portfolio](https://jeandv.vercel.app) <br>
 · [LinkedIn](https://linkedin.com/in/jeandv) <br>
@@ -44,7 +44,7 @@ I am currently learning the way to be a DevOps, the reason why I am interested i
 
 ## Contact 📧
 
-✔ If you want to contact me you can write me to jeanrdev@gmail.com or to my [LinkedIn](https://www.linkedin.com/in/jeandv/) for inquiries or you can also talk to me by [Whatsapp](https://walink.co/2369d5)
+✔ If you want to contact me you can write me to thangbuiq@gmail.com or to my [LinkedIn](https://www.linkedin.com/in/jeandv/) for inquiries or you can also talk to me by [Whatsapp](https://walink.co/2369d5)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

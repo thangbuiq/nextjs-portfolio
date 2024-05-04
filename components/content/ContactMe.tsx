@@ -12,24 +12,24 @@ const ContactMe = () => {
 
         <div className='w-full flex justify-between items-center flex-col lg:flex-row gap-6 mb-10'>
 
-          <a href='mailto:jeanrdev@gmail.com' target='_blank' rel='noreferrer' className='w-full'>
+          <a href='mailto:thangbuiq@gmail.com' target='_blank' rel='noreferrer' className='w-full'>
             <div className='rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease'>
               <h6 className='font-bold text-1xl tracking-tight text-white text-start'>
                 Email
               </h6>
               <p className='text-base mt-2 text-gray-400'>
-                jeanrdev@gmail.com
+                thangbuiq@gmail.com
               </p>
             </div>
           </a>
 
-          <a href='https://walink.co/2369d5' target='_blank' rel='noreferrer' className='w-full'>
+          <a href='https://github.com/thangbuiq/' target='_blank' rel='noreferrer' className='w-full'>
             <div className='rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease'>
               <h6 className='font-bold text-1xl tracking-tight text-white text-start'>
-                Phone
+                GitHub
               </h6>
               <p className='text-base mt-2 text-gray-400'>
-                +58 416 943 86 66
+                @thangbuiq
               </p>
             </div>
           </a>
@@ -37,7 +37,7 @@ const ContactMe = () => {
         </div>
 
         <div className='w-full flex justify-center items-center flex-col'>
-          <form action='https://formspree.io/f/xdorkorr' method='POST' className='w-full space-y-4'>
+          <form action='https://formspree.io/f/xgejapww' method='POST' className='w-full space-y-4'>
             <div>
               <label className='sr-only' htmlFor='name'>Name</label>
               <input
@@ -64,7 +64,7 @@ const ContactMe = () => {
               </div>
 
               <div>
-                <label className='sr-only' htmlFor='phone'>Phone</label>
+                <label className='sr-only' htmlFor='phone'>GitHub</label>
                 <input
                   className='w-full rounded p-3 text-base outline-none border text-white bg-black border-gray-900 focus:border-gray-800 transition ease'
                   placeholder='Phone'

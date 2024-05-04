@@ -5,6 +5,8 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
+import { useEffect, useState } from "react";
+
 const PdfViewer = ({ url }: { url: string }) => {
     const renderPage = (props: RenderPageProps) => {
         return (
@@ -20,7 +22,13 @@ const PdfViewer = ({ url }: { url: string }) => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin({
         sidebarTabs: (defaultTabs) => [],
     });
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
+    }, []);
+
+    isMobile ? console.log("Mobile") : console.log("Desktop");
     return (
         <>
         {isMobile ? (

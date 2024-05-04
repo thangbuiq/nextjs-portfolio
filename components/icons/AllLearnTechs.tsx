@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const animation = {
   hide: { x: -8, opacity: 0 },
@@ -47,7 +48,7 @@ const AllLearningTechs = () => {
         
         <motion.li style={{ opacity: 1, transform: 'none' }} variants={animation}>
           <div className='transition duration-200 grayscale-0 hover:grayscale'>
-            <img src='/argocd.svg' alt='ArgoCD' width={32} height={32} />
+            <Image src='/argocd.svg' alt='ArgoCD' width={32} height={32} />
           </div>
         </motion.li>
 
@@ -69,7 +70,7 @@ const AllLearningTechs = () => {
         </motion.li> */}
         <motion.li style={{ opacity: 1, transform: 'none' }} variants={animation}>
           <div className='transition duration-200 grayscale-0 hover:grayscale'>
-            <img src='/tensorflow.svg' alt='tensorflow' width={32} height={32} />
+            <Image src='/tensorflow.svg' alt='tensorflow' width={32} height={32} />
           </div>
         </motion.li>
 

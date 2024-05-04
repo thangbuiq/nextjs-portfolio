@@ -49,8 +49,8 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
     <Paper
       shadow='xl'
       radius='md'
-      style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(${image})`}}
-      className={classes.card}
+      style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(${image})` }}
+      className={`${classes.card}`}
     >
       <div>
         <Text className={classes.category} size='xs'>
@@ -128,7 +128,7 @@ const FavProjects = () => {
           />
         </svg>
       </h2>
-          
+
       <Carousel
         slideSize='50%'
         breakpoints={[{ maxWidth: 'xs', slideSize: '100%', slideGap: 1 }]}

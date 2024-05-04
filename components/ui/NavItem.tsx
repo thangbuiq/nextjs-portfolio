@@ -23,9 +23,7 @@ const NavItem = () => {
                   width: navItemsSelected[pathname].w,
                 }}
                 transition={{
-                  type: 'spring',
-                  stiffness: 350,
-                  damping: 30,
+                  type: 'spring'
                 }}
               />
             </div>

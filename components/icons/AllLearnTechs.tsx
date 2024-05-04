@@ -20,7 +20,7 @@ const AllLearningTechs = () => {
         animate={animation.show}
         transition={{ delay: 0.6 }}
       >
-        I am currently familiar with the following technologies:
+        Currently familiar with the following technologies:
       </motion.p>
 
       <motion.ul

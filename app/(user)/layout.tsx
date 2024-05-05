@@ -6,15 +6,13 @@ import Footer from '@/components/ui/Footer';
 import Head from '../head';
 // import FlareCursor from '@/components/ui/FlareCursor';
 
-const graphik = GeistSans;
-
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html
       lang='en'
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
-        graphik.variable
+        GeistSans.variable,
       )}
     >
 

@@ -24,6 +24,7 @@
   padding-top: 30px;
   width: fit-content;
   backdrop-filter: blur(12px);
+  background-color: #15151550 !important;
   /* z-index: 1000; */
   opacity: 0;
   right: 0;

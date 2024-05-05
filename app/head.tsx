@@ -10,10 +10,11 @@ const Head = () => {
   const titleFixedToShow = pathname.slice(1).charAt(0).toUpperCase() + pathname.slice(2);
 
   const meta = {
-    title: `Thang Q. Bui ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
+    title: `Thang Q. Bui | Portfolio ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
     description: `Hi! My name is Thang Bui. I am a DevOps Engineer. I am passionate about technology and I love to learn new things.`,
     keywords: 'Thang Q. Bui, DevOps Engineer, thangbuiq, thangqbui',
-    type: 'website'
+    type: 'website',
+    image: '/og-image.png'
   };
 
   return (
@@ -28,7 +29,8 @@ const Head = () => {
       <link rel="icon" href="/favicon.svg" />
       <link rel='me' href='mailto:thangbuiq@gmail.com' />
       <meta property='og:type' content={meta.type} />
-      <meta property='og:site_name' content='Thang Q. Bui' />
+
+      <meta property='og:site_name' content='Thang Q. Bui | Portfolio' />
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
       <meta name='twitter:card' content='summary_large_image' />

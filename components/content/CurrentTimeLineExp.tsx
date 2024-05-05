@@ -14,7 +14,8 @@ const CurrentTimeLineExp = () => {
 
             <li><strong className='text-white'> AI Engineer</strong></li>
             <li> Deployment of AI applications using Kubernetes, ArgoCD, Helm and GitHub Actions</li>
-            <li> Development of NLP models using Python, TensorFlow, FastAPI, and LLM agent with LlamaIndex</li>
+            <li> Development of LLM agent with CrewAI, LlamaIndex, and ML models using TensorFlow, PyTorch</li>
+            <li> Model serving with FastAPI, ReactJs, and Docker</li>
 
         </TimelineEvent.Description>
 

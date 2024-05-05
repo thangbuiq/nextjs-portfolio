@@ -4,17 +4,17 @@ const LinksMenu = [
   {
     name: 'Home',
     path: '/',
-    delay: '30ms'
+    delay: '125ms'
   },
   {
     name: 'Projects',
     path: '/projects',
-    delay: '60ms'
+    delay: '150ms'
   },
   {
     name: 'CV',
     path: '/cv',
-    delay: '90ms'
+    delay: '175ms'
   }
 ]
 

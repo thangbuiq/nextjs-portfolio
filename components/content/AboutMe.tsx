@@ -9,7 +9,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        I am an <b>AI Engineer</b> with data driven mindset, passionate about technology and I love to learn new things. I have experience in develop and deploy AI models for various domains such as computer vision, natural language processing, and reinforcement learning.
+        I am an <b>AI Engineer</b> with a data-driven mindset, a deep passion for technology, and an eagerness to learn. I possess experience in developing and deploying AI models across diverse domains, including computer vision, natural language processing, and reinforcement learning.
       </p>
 
     </AnimationContainer>

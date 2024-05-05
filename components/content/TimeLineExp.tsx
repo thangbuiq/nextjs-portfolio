@@ -50,7 +50,7 @@ export const TimelineEvent = ({ active, children, last }: TimelineEventProps) =>
 
 const TimelineEventTitle = ({ children }: { children: React.ReactNode }) => <p className='text-base text-gray-400'>{children}</p>;
 
-const TimelineEventDescription = ({ children }: { children: React.ReactNode }) => <p className='text-base text-gray-400'>{children}</p>;
+const TimelineEventDescription = ({ children }: { children: React.ReactNode }) => <ul className='text-base text-gray-400 list-disc pl-6'>{children}</ul>;
 
 TimelineEvent.Title = TimelineEventTitle;
 

@@ -20,7 +20,7 @@ export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
     name: 'cv',
     x: 145,
     y: -3,
-    w: '40px',
+    w: '35px',
   }
 };
 

@@ -39,12 +39,12 @@ const PdfViewer = ({ url }: { url: string }) => {
                         plugins={[defaultLayoutPluginInstance]}
                         theme={"dark"}
                         renderPage={renderPage}
-                        defaultScale={SpecialZoomLevel.PageFit}
+                        defaultScale={SpecialZoomLevel.PageWidth}
                     />
                 </Worker>
             </div>
         ) : (
-            <div className="w-[1250px]">
+            <div className="w-[1250px] h-screen">
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
                     <Viewer
                         fileUrl={url}

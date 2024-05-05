@@ -9,32 +9,28 @@ const NavItem = () => {
   let pathname = usePathname() as string;
   return (
     <>
-      {
-        navItemsSelected[pathname] ? (
-          <>
-            <div className='hidden lg:block'>
-              <motion.div
-                className='absolute bg-neutral-800 h-[34px] rounded-md z-[-1]'
-                layoutId='test2'
-                initial={{ opacity: 0, x: navItemsSelected[pathname].x, y: navItemsSelected[pathname].y }}
-                animate={{
-                  opacity: 1,
-                  x: navItemsSelected[pathname].x,
-                  width: navItemsSelected[pathname].w,
-                }}
-                transition={{
-                  type: 'spring'
-                }}
-              />
-            </div>
-          </>
-        ) : null}
+      {navItemsSelected[pathname] ? (
+        <>
+          <div className='hidden lg:block'>
+            <motion.div
+              className='absolute bg-neutral-800 h-[34px] rounded-md z-[-1]'
+              layoutId='test2'
+              initial={{ opacity: 0, x: navItemsSelected[pathname].x, y: -3 }}
+              animate={{
+                opacity: 1,
+                x: navItemsSelected[pathname].x,
+                width: navItemsSelected[pathname].w,
+              }}
+              transition={{
+                type: 'tween',
+                duration: 0.3, 
+              }}
+            />
+          </div>
+        </>
+      ) : null}
 
-      {
-
-        <LinksNav />
-
-      }
+      <LinksNav />
     </>
   );
 }

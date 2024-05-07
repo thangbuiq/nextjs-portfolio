@@ -29,7 +29,7 @@ const Head = () => {
       <link rel="icon" href="/favicon.svg" />
       <link rel='me' href='mailto:thangbuiq@gmail.com' />
       <meta property='og:type' content={meta.type} />
-
+      <meta property="og:image" content={meta.image} />
       <meta property='og:site_name' content='Thang Q. Bui | Portfolio' />
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
